@@ -10,21 +10,21 @@ DISTINCTCOUNT(dClient[id])
 
 Descrição: Conta o número distinto de clientes na tabela dClient com base no campo id.
 
-**02 - Qtd City**
+**`02 - Qtd City`**
 
 
 DISTINCTCOUNT(dAddress[city])
 
 Descrição: Conta o número distinto de cidades na tabela dAddress com base no campo city.
 
-**03 - Qtd State**
+**`03 - Qtd State`**
 
 
 DISTINCTCOUNT(dAddress[state])
 
 Descrição: Conta o número distinto de estados na tabela dAddress com base no campo state.
 
-**04 - Qtde Client ATV**
+**`04 - Qtde Client ATV`**
 
 
 CALCULATE(
@@ -34,7 +34,7 @@ CALCULATE(
 
 Descrição: Conta o número de clientes distintos que têm o status de pagamento "Active" na tabela fPayment.
 
-**05 - Qtde Client BLC**
+**`05 - Qtde Client BLC`**
 
 Copiar código
 CALCULATE(
@@ -44,7 +44,7 @@ CALCULATE(
 
 Descrição: Conta o número de clientes distintos que têm o status de pagamento "Blocked" na tabela fPayment.
 
-**06 - Perc Client ATV**
+**`06 - Perc Client ATV`**
 
 DIVIDE(
     CALCULATE(
@@ -56,13 +56,13 @@ DIVIDE(
 
 Descrição: Calcula a porcentagem de clientes com status "Active" em relação ao total de clientes.
 
-**07 - City quantity**
+**`07 - City quantity`**
 
 DISTINCTCOUNT(dAddress[city])
 
 Descrição: Conta o número distinto de cidades na tabela dAddress com base no campo city.
 
-**08 - Average Age of Users**
+**`08 - Average Age of Users`**
 
 VAR Birth =
     SUMMARIZE(
@@ -81,7 +81,7 @@ RETURN
 
 Descrição: Calcula a idade média dos usuários com base na data de nascimento registrada na tabela dClient.
 
-**09 - Perc Client BLC**
+**`09 - Perc Client BLC`**
 
 DIVIDE(
     CALCULATE(
@@ -93,7 +93,7 @@ DIVIDE(
 
 Descrição: Calcula a porcentagem de clientes com status "Blocked" em relação ao total de clientes.
 
-**10 - Perc Client Idle**
+**`10 - Perc Client Idle`**
 
 DIVIDE(
     CALCULATE(
@@ -105,7 +105,7 @@ DIVIDE(
 
 Descrição: Calcula a porcentagem de clientes com status "Idle" em relação ao total de clientes
 
-**11 - Perc Client Pending**
+**`11 - Perc Client Pending`**
 
 DIVIDE(
     CALCULATE(
