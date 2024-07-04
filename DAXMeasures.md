@@ -4,7 +4,7 @@ Aqui estão as explicações detalhadas para cada uma das medidas DAX utilizadas
 
 
 
- **01 - Qtde Client**
+ **`01 - Qtde Client`**
 
 DISTINCTCOUNT(dClient[id])
 
