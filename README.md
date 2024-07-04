@@ -9,7 +9,6 @@ O objetivo deste projeto é realizar análise de dados detalhada de usuários e 
 ## Estrutura do Repositório
 
 - **`PowerQueryCode.m`**: Script em M para obtenção e limpeza de dados de usuários aleatórios através da API `random-data-api`.
-- **`Notebooks/`**: Notebooks Jupyter com exemplos de análises exploratórias e modelagem preditiva.
 - **`Visualizations/`**: Exemplos de visualizações criadas no Power BI para apresentação dos dados.
 
 ## Como Usar
