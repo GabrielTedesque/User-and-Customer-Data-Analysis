@@ -29,4 +29,10 @@ O repositório utiliza expressões DAX para calcular métricas chave e obter ins
 
 Este repositório serve como um recurso para analistas de dados interessados em aprimorar suas habilidades em análise de dados de usuários e clientes, com foco em aplicativos práticos e insights acionáveis.
 
----
+
+![image](https://github.com/GabrielTedesque/User-and-Customer-Data-Analysis/assets/121674757/1d10eea4-97e6-42b3-831b-f4f7000d5f07)
+
+![image](https://github.com/GabrielTedesque/User-and-Customer-Data-Analysis/assets/121674757/819f8ea0-8a15-4cce-951c-0b458c7d127a)
+
+
+
